@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">NutriGENs</string>
+    <string name="indeks_massa_tubuh">Indeks Massa Tubuh :</string>
+    <string-array name="listgizi">
+        <item>Energi</item>
+        <item>Protein</item>
+        <item>Lemak</item>
+        <item>Omega 3</item>
+        <item>Omega 6</item>
+        <item>Karbohidrat</item>
+        <item>Serat</item>
+        <item>Air</item>
+    </string-array>
+    <string-array name="balita">
+        <item>Balita berumur 1–5 tahun membutuhkan Energi sebesar 1350 kkal. Setiap mahluk membutuhkan energi, karena energi sangat dibutuhkan bagi mahluk hidup terutama manusia. Manusia tanpa energi tidak akan bisa hidup, karena mahluk hidup sangat membutuhkan energi. Kita dapat melakukan semua aktivitas berkat adanya energi, energi tersebut dihasilkan oleh asupan makanan.</item>
+        <item>Balita berumur 1–5 tahun membutuhkan Protein sebesar  20 gram. Manfaat protein bagi tubuh berhubungan dengan hampir segala aktivitas yang dilakukan oleh seseorang setiap harinya. Manfaat protein bagi tubuh bisa didapatkan dari berbagai jenis makanan. Sumber protein yang terdapat dalam makanan meliputi daging, termasuk daging unggas, ikan, produk susu, telur, kacang polong atau kacang lentil. </item>
+        <item>Balita berumur 1–5 tahun membutuhkan Lemak 25 gram. Manfaat lemak adalah sebagai sumber energi, dalam setiap 1 gram lemak terdapat 9 kalori untuk tubuh, sumber pertumbuhan sel, yang setiap jenisnya sangat dibutuhkan tubuh untuk membentuk tubuh yang sehat, menunjang fungsi otak, membantu penyerapan vitamin, menunjang produksi hormon, Membantu kesehatan kulit, dan mendukung kesehatan organ tubuh.</item>
+        <item>Balita berumur 1–5 tahun membutuhkan Omega 3 0.7 gram. Manfaat omega 3 bagi tubuh dan telah teruji secara klinis adalah meningkatkan kesehatan mata, bisa mengurangi gejala sindrom metabolik, bisa melawan peradangan, bisa melawan penyakit autoimun, dan mengurangi asma pada anak-anak.</item>
+        <item>Balita berumur 1–5 tahun membutuhkan Omega 6 7 gram. Zat ini penting dalam sistem kekebalan tubuh. Beberapa asam lemak omega-6 telah menunjukkan manfaat dalam mengobati gejala penyakit kronis, seperti gejala rheumatoid arthritis (radang sendi kronis), efektif mengobati kanker payudara, bahkan mengurangi massa lemak tubuh.</item>
+        <item>Balita berumur 1–5 tahun membutuhkan Karbohidrat 215 gram. Glukosa atau gula yang diolah dari karbohidrat berfungsi sebagai bahan bakar yang akan digunakan oleh tubuh. Manfaat karbohidrat yang utama adalah sebagai sumber energi bagi tubuh dalam menjalankan berbagai fungsi, serta untuk melakukan beragam aktivitas setiap harinya.</item>
+        <item>Balita berumur 1–5 tahun membutuhkan Serat 19 gram. Serat adalah salah satu sumber nutrisi penting dari makanan, yang tak boleh Anda lewatkan. Sebab, ada beberapa manfaat serat, untuk kesehatan Anda. Melancarkan pergerakan usus, menurunkan kolesterol, mengendalikan gula darah, memelihara kesehatan usus, membantu Anda hidup lebih lama.</item>
+        <item>Balita berumur 1–5 tahun membutuhkan Air 1150 ml. Manfaat air putih yang baik bagi kesehatan tubuh manusia, meningkatkan kinerja daya otak dan menyediakan energi, membantu mengeluarkan toksin dalam tubuh, baik untuk kesehatan kulit, meningkatkan dan memperkuat sistem imun pada tubuh, mengurangi rasa lelah, dan meningkatkan mood dan meredakan sakit kepala.</item>
+    </string-array>
+    <string-array name="anak">
+        <item>Anak berumur 6–15 tahun membutuhkan Energi 2000 kkal. Setiap mahluk membutuhkan energi, karena energi sangat dibutuhkan bagi mahluk hidup terutama manusia. Manusia tanpa energi tidak akan bisa hidup, karena mahluk hidup sangat membutuhkan energi. Kita dapat melakukan semua aktivitas berkat adanya energi, energi tersebut dihasilkan oleh asupan makanan.</item>
+        <item>Anak berumur 6–15 tahun membutuhkan Protein 50 gram. Manfaat protein bagi tubuh berhubungan dengan hampir segala aktivitas yang dilakukan oleh seseorang setiap harinya. Manfaat protein bagi tubuh bisa didapatkan dari berbagai jenis makanan. Sumber protein yang terdapat dalam makanan meliputi daging, termasuk daging unggas, ikan, produk susu, telur, kacang polong atau kacang lentil. </item>
+        <item>Anak berumur 6–15 tahun membutuhkan Lemak 65 gram. Manfaat lemak adalah sebagai sumber energi, dalam setiap 1 gram lemak terdapat 9 kalori untuk tubuh, sumber pertumbuhan sel, yang setiap jenisnya sangat dibutuhkan tubuh untuk membentuk tubuh yang sehat, menunjang fungsi otak, membantu penyerapan vitamin, menunjang produksi hormon, Membantu kesehatan kulit, dan mendukung kesehatan organ tubuh.</item>
+        <item>Anak berumur 6–15 tahun membutuhkan Omega 3 1.2 gram. Manfaat omega 3 bagi tubuh dan telah teruji secara klinis adalah meningkatkan kesehatan mata, bisa mengurangi gejala sindrom metabolik, bisa melawan peradangan, bisa melawan penyakit autoimun, dan mengurangi asma pada anak-anak.</item>
+        <item>Anak berumur 6–15 tahun membutuhkan Omega 6 12 gram. Zat ini penting dalam sistem kekebalan tubuh. Beberapa asam lemak omega-6 telah menunjukkan manfaat dalam mengobati gejala penyakit kronis, seperti gejala rheumatoid arthritis (radang sendi kronis), efektif mengobati kanker payudara, bahkan mengurangi massa lemak tubuh.</item>
+        <item>Anak berumur 6–15 tahun membutuhkan Karbohidrat 300 gram. Glukosa atau gula yang diolah dari karbohidrat berfungsi sebagai bahan bakar yang akan digunakan oleh tubuh. Manfaat karbohidrat yang utama adalah sebagai sumber energi bagi tubuh dalam menjalankan berbagai fungsi, serta untuk melakukan beragam aktivitas setiap harinya.</item>
+        <item>Anak berumur 6–15 tahun membutuhkan Serat 28 gram. Serat adalah salah satu sumber nutrisi penting dari makanan, yang tak boleh Anda lewatkan. Sebab, ada beberapa manfaat serat, untuk kesehatan Anda. Melancarkan pergerakan usus, menurunkan kolesterol, mengendalikan gula darah, memelihara kesehatan usus, membantu Anda hidup lebih lama.</item>
+        <item>Anak berumur 6–15 tahun membutuhkan Air 1850 ml. Manfaat air putih yang baik bagi kesehatan tubuh manusia, meningkatkan kinerja daya otak dan menyediakan energi, membantu mengeluarkan toksin dalam tubuh, baik untuk kesehatan kulit, meningkatkan dan memperkuat sistem imun pada tubuh, mengurangi rasa lelah, dan meningkatkan mood dan meredakan sakit kepala.</item>
+    </string-array>
+    <string-array name="remaja">
+        <item>Remaja berumur 16–18 tahun membutuhkan Energi 2650 kkal. Setiap mahluk membutuhkan energi, karena energi sangat dibutuhkan bagi mahluk hidup terutama manusia. Manusia tanpa energi tidak akan bisa hidup, karena mahluk hidup sangat membutuhkan energi. Kita dapat melakukan semua aktivitas berkat adanya energi, energi tersebut dihasilkan oleh asupan makanan.</item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Protein 75 gram. Manfaat protein bagi tubuh berhubungan dengan hampir segala aktivitas yang dilakukan oleh seseorang setiap harinya. Manfaat protein bagi tubuh bisa didapatkan dari berbagai jenis makanan. Sumber protein yang terdapat dalam makanan meliputi daging, termasuk daging unggas, ikan, produk susu, telur, kacang polong atau kacang lentil. </item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Lemak 85 gram. Manfaat lemak adalah sebagai sumber energi, dalam setiap 1 gram lemak terdapat 9 kalori untuk tubuh, sumber pertumbuhan sel, yang setiap jenisnya sangat dibutuhkan tubuh untuk membentuk tubuh yang sehat, menunjang fungsi otak, membantu penyerapan vitamin, menunjang produksi hormon, Membantu kesehatan kulit, dan mendukung kesehatan organ tubuh.</item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Omega 3 1.6 gram. Manfaat omega 3 bagi tubuh dan telah teruji secara klinis adalah meningkatkan kesehatan mata, bisa mengurangi gejala sindrom metabolik, bisa melawan peradangan, bisa melawan penyakit autoimun, dan mengurangi asma pada anak-anak.</item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Omega 6 17 gram. Zat ini penting dalam sistem kekebalan tubuh. Beberapa asam lemak omega-6 telah menunjukkan manfaat dalam mengobati gejala penyakit kronis, seperti gejala rheumatoid arthritis (radang sendi kronis), efektif mengobati kanker payudara, bahkan mengurangi massa lemak tubuh.</item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Karbohidrat 415 gram. Glukosa atau gula yang diolah dari karbohidrat berfungsi sebagai bahan bakar yang akan digunakan oleh tubuh. Manfaat karbohidrat yang utama adalah sebagai sumber energi bagi tubuh dalam menjalankan berbagai fungsi, serta untuk melakukan beragam aktivitas setiap harinya.</item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Serat 36 gram. Serat adalah salah satu sumber nutrisi penting dari makanan, yang tak boleh Anda lewatkan. Sebab, ada beberapa manfaat serat, untuk kesehatan Anda. Melancarkan pergerakan usus, menurunkan kolesterol, mengendalikan gula darah, memelihara kesehatan usus, membantu Anda hidup lebih lama.</item>
+        <item>Remaja berumur 16–18 tahun membutuhkan Air 2500 ml. Manfaat air putih yang baik bagi kesehatan tubuh manusia, meningkatkan kinerja daya otak dan menyediakan energi, membantu mengeluarkan toksin dalam tubuh, baik untuk kesehatan kulit, meningkatkan dan memperkuat sistem imun pada tubuh, mengurangi rasa lelah, dan meningkatkan mood dan meredakan sakit kepala.</item>
+    </string-array>
+    <string-array name="dewasa">
+        <item>Dewasa berumur 19–29 tahun membutuhkan Energi2650 kkal. Setiap mahluk membutuhkan energi, karena energi sangat dibutuhkan bagi mahluk hidup terutama manusia. Manusia tanpa energi tidak akan bisa hidup, karena mahluk hidup sangat membutuhkan energi. Kita dapat melakukan semua aktivitas berkat adanya energi, energi tersebut dihasilkan oleh asupan makanan.</item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Protein65 gram. Manfaat protein bagi tubuh berhubungan dengan hampir segala aktivitas yang dilakukan oleh seseorang setiap harinya. Manfaat protein bagi tubuh bisa didapatkan dari berbagai jenis makanan. Sumber protein yang terdapat dalam makanan meliputi daging, termasuk daging unggas, ikan, produk susu, telur, kacang polong atau kacang lentil. </item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Lemak 75 gram. Manfaat lemak adalah sebagai sumber energi, dalam setiap 1 gram lemak terdapat 9 kalori untuk tubuh, sumber pertumbuhan sel, yang setiap jenisnya sangat dibutuhkan tubuh untuk membentuk tubuh yang sehat, menunjang fungsi otak, membantu penyerapan vitamin, menunjang produksi hormon, Membantu kesehatan kulit, dan mendukung kesehatan organ tubuh.</item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Omega 3 1.6 gram. Manfaat omega 3 bagi tubuh dan telah teruji secara klinis adalah meningkatkan kesehatan mata, bisa mengurangi gejala sindrom metabolik, bisa melawan peradangan, bisa melawan penyakit autoimun, dan mengurangi asma pada anak-anak.</item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Omega 6 17 gram. Zat ini penting dalam sistem kekebalan tubuh. Beberapa asam lemak omega-6 telah menunjukkan manfaat dalam mengobati gejala penyakit kronis, seperti gejala rheumatoid arthritis (radang sendi kronis), efektif mengobati kanker payudara, bahkan mengurangi massa lemak tubuh.</item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Karbohidrat 430 gram. Glukosa atau gula yang diolah dari karbohidrat berfungsi sebagai bahan bakar yang akan digunakan oleh tubuh. Manfaat karbohidrat yang utama adalah sebagai sumber energi bagi tubuh dalam menjalankan berbagai fungsi, serta untuk melakukan beragam aktivitas setiap harinya.</item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Serat 37 gram. Serat adalah salah satu sumber nutrisi penting dari makanan, yang tak boleh Anda lewatkan. Sebab, ada beberapa manfaat serat, untuk kesehatan Anda. Melancarkan pergerakan usus, menurunkan kolesterol, mengendalikan gula darah, memelihara kesehatan usus, membantu Anda hidup lebih lama.</item>
+        <item>Dewasa berumur 19–29 tahun membutuhkan Air 2500 ml. Manfaat air putih yang baik bagi kesehatan tubuh manusia, meningkatkan kinerja daya otak dan menyediakan energi, membantu mengeluarkan toksin dalam tubuh, baik untuk kesehatan kulit, meningkatkan dan memperkuat sistem imun pada tubuh, mengurangi rasa lelah, dan meningkatkan mood dan meredakan sakit kepala.</item>
+    </string-array>
+    <string-array name="detailgizi">
+        <item>Butuh 1kg Karbohidrat tiap harinya</item>
+        <item>Butuh 500g Protein tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+        <item>Butuh 500mg Kalsium tiap harinya</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Pilih Gender...</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="aktifitas">
+        <item>Bedrest</item>
+        <item>Kebanyakan Duduk</item>
+        <item>Aktifitas Sangat Ringan</item>
+        <item>Aktifitas Sedang</item>
+        <item>Aktifitas Berat</item>
+        <item>Aktifitas Sangat Berat</item>
+    </string-array>
+</resources>

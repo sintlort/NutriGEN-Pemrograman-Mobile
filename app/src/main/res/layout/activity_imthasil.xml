@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgims"
+    tools:context=".HasilIMTActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="HASIL KALKULASI"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="117dp"
+        android:layout_height="44dp"
+        android:fontFamily="sans-serif-black"
+        android:text="DATA DIRI"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <TextView
+        android:id="@+id/text_view_hasil_bb"
+        android:layout_width="367dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Berat Badan : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <TextView
+        android:id="@+id/text_view_hasil_tb"
+        android:layout_width="367dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Tinggi Badan : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <TextView
+        android:id="@+id/text_view_hasil_gender"
+        android:layout_width="367dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Jenis Kelamin : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view_hasil_imt"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Indeks Massa Tubuh : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <TextView
+        android:id="@+id/text_view_hasil"
+        android:layout_width="351dp"
+        android:layout_height="41dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Hasil : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <TextView
+        android:id="@+id/text_view_hasil_ket"
+        android:layout_width="365dp"
+        android:layout_height="102dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Keterangan : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
