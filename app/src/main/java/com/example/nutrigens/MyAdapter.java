@@ -16,7 +16,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     String data1[], data2[];
     Context context;
-
     public MyAdapter(Context ct, String  string1[], String string2[]){
         context = ct;
         data1=string1;
@@ -47,6 +46,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             jenisgiziv = itemView.findViewById(R.id.jenisgizi);
+
             keteranganv = itemView.findViewById(R.id.keterangan);
         }
     }

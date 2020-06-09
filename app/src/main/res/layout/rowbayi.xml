@@ -3,19 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#3faeb7">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="411dp"
-        android:layout_height="142dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="372dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingStart="15dp">
 
             <TextView
                 android:id="@+id/jenisgizi"
@@ -24,8 +27,8 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:text="TextView"
-                android:textSize="20dp"
                 android:textColor="#000000"
+                android:textSize="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -33,14 +36,15 @@
 
             <TextView
                 android:id="@+id/keterangan"
-                android:layout_width="371dp"
-                android:layout_height="67dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="TextView"
-                android:textSize="10dp"
                 android:textColor="#000000"
-                app:layout_constraintStart_toStartOf="@+id/jenisgizi"
-                app:layout_constraintTop_toBottomOf="@+id/jenisgizi" />
+                android:textSize="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jenisgizi"
+                android:justificationMode="inter_word"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
