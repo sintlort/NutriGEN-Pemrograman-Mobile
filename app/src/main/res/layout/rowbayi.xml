@@ -25,6 +25,7 @@
                 android:layout_marginTop="16dp"
                 android:text="TextView"
                 android:textSize="20dp"
+                android:textColor="#000000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +38,7 @@
                 android:layout_marginTop="16dp"
                 android:text="TextView"
                 android:textSize="10dp"
+                android:textColor="#000000"
                 app:layout_constraintStart_toStartOf="@+id/jenisgizi"
                 app:layout_constraintTop_toBottomOf="@+id/jenisgizi" />
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,41 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac812c35-dd01-41a0-b812-0204336d4102" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nutrigens/tdee_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nutrigens/tdee_activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rowbayi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rowbayi.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_24" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -74,8 +52,8 @@
     <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_29_x86 [emulator-5554]" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.nutrigens" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_API_29" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-02T02:01:54.832Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_API_24" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-09T16:06:42.273Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -174,25 +152,33 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="581" y="134" key="CommitChangelistDialog2" timestamp="1591718832969">
+      <screen x="0" y="0" width="1854" height="1080" />
+    </state>
+    <state x="581" y="134" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1591718832969" />
     <state x="740" y="310" key="FileChooserDialogImpl" timestamp="1591063848827">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1591063848827" />
-    <state width="938" height="285" key="GridCell.Tab.0.bottom" timestamp="1591067662431">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1811" height="294" key="GridCell.Tab.0.bottom" timestamp="1591718227350">
+      <screen x="0" y="0" width="1854" height="1080" />
     </state>
+    <state width="1811" height="294" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1591718227350" />
     <state width="938" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1591067662431" />
-    <state width="938" height="285" key="GridCell.Tab.0.center" timestamp="1591067662430">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1811" height="294" key="GridCell.Tab.0.center" timestamp="1591718227350">
+      <screen x="0" y="0" width="1854" height="1080" />
     </state>
+    <state width="1811" height="294" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1591718227350" />
     <state width="938" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1591067662430" />
-    <state width="938" height="285" key="GridCell.Tab.0.left" timestamp="1591067662429">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1811" height="294" key="GridCell.Tab.0.left" timestamp="1591718227349">
+      <screen x="0" y="0" width="1854" height="1080" />
     </state>
+    <state width="1811" height="294" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1591718227349" />
     <state width="938" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1591067662429" />
-    <state width="938" height="285" key="GridCell.Tab.0.right" timestamp="1591067662431">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1811" height="294" key="GridCell.Tab.0.right" timestamp="1591718227350">
+      <screen x="0" y="0" width="1854" height="1080" />
     </state>
+    <state width="1811" height="294" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1591718227350" />
     <state width="938" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1591067662431" />
     <state x="656" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1591063760012">
       <screen x="0" y="30" width="1920" height="1050" />

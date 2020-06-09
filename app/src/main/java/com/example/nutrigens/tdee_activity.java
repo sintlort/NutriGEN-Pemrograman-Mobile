@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class tdee_activity extends AppCompatActivity {
 
@@ -46,6 +47,9 @@ public class tdee_activity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
+                    case 0:
+                        activitycase=0;
+                        break;
                     case 1:
                         activitycase=1;
                         break;
@@ -72,16 +76,16 @@ public class tdee_activity extends AppCompatActivity {
                         aktif =2;
                         break;
                     case 2:
-                        aktif =2;
+                        aktif =3;
                         break;
                     case 3:
-                        aktif =2;
+                        aktif =4;
                         break;
                     case 4:
-                        aktif =2;
+                        aktif =5;
                         break;
                     case 5:
-                        aktif =2;
+                        aktif =6;
                         break;
                 }
             }
@@ -103,52 +107,57 @@ public class tdee_activity extends AppCompatActivity {
 
     private void openCalculateTDEE() {
         EditText usia = (EditText) findViewById(R.id.editText1);
-        int valueusia = Integer.parseInt(usia.getText().toString());
+
 
         EditText tinggi = (EditText) findViewById(R.id.editText2);
-        int valuetinggi = Integer.parseInt(tinggi.getText().toString());
+
 
         EditText berat = (EditText) findViewById(R.id.editText3);
 
-        int valueberat = Integer.parseInt(berat.getText().toString());
 
-        Intent tdee = new Intent(this,calculatetdee.class);
+        if (usia.getText().toString().equals("") || tinggi.getText().toString().equals("") || berat.getText().toString().equals("")|| activitycase==0) {
+            Toast.makeText(getApplicationContext(), "Silahkan Isi Seluruh Data", Toast.LENGTH_SHORT).show();
+        } else {
+            int valueberat = Integer.parseInt(berat.getText().toString());
+            int valuetinggi = Integer.parseInt(tinggi.getText().toString());
+            int valueusia = Integer.parseInt(usia.getText().toString());
+            Intent tdee = new Intent(this, calculatetdee.class);
 
-        tdee.putExtra(EXTRA_USIA,valueusia);
+            tdee.putExtra(EXTRA_USIA, valueusia);
 
-        tdee.putExtra(EXTRA_TINGGI,valuetinggi);
+            tdee.putExtra(EXTRA_TINGGI, valuetinggi);
 
-        tdee.putExtra(EXTRA_BERAT,valueberat);
-        //Laki Laki
-        if(activitycase==1){
-            if(aktif<=2){
-                bmr = (valuetinggi*6.25)+(valueberat*9.99)-(valueusia*4.92)+5;
-                tdevalue = bmr;
-                tdee.putExtra(EXTRA_TDEE,tdevalue);
-                startActivity(tdee);
+            tdee.putExtra(EXTRA_BERAT, valueberat);
+            //Laki Laki
+            if (activitycase == 1) {
+                if (aktif <= 2) {
+                    bmr = (valuetinggi * 6.25) + (valueberat * 9.99) - (valueusia * 4.92) + 5;
+                    tdevalue = bmr;
+                    tdee.putExtra(EXTRA_TDEE, tdevalue);
+                    startActivity(tdee);
+                } else if (aktif >= 3) {
+                    bmr = (valuetinggi * 6.25) + (valueberat * 9.99) - (valueusia * 4.92) + 5;
+                    tdevalue = bmr * 1.55;
+                    tdee.putExtra(EXTRA_TDEE, tdevalue);
+                    startActivity(tdee);
+                }
             }
-            else if(aktif>=3){
-                bmr = (valuetinggi*6.25)+(valueberat*9.99)-(valueusia*4.92)+5;
-                tdevalue = bmr*1.55;
-                tdee.putExtra(EXTRA_TDEE,tdevalue);
-                startActivity(tdee);
+            //Perempuan
+            else if (activitycase == 2) {
+                if (aktif <= 2) {
+                    bmr = (valuetinggi * 6.25) + (valueberat * 9.99) - (valueusia * 4.92) - 161;
+                    tdevalue = bmr;
+                    tdee.putExtra(EXTRA_TDEE, tdevalue);
+                    startActivity(tdee);
+
+                } else if (aktif >= 3) {
+                    bmr = (valuetinggi * 6.25) + (valueberat * 9.99) - (valueusia * 4.92) - 161;
+                    tdevalue = bmr*1.55;
+                    tdee.putExtra(EXTRA_TDEE, tdevalue);
+                    startActivity(tdee);
+                }
             }
+
         }
-        //Perempuan
-        else if(activitycase==2){
-            if(aktif<=2){
-                bmr = (valuetinggi*6.25)+(valueberat*9.99)-(valueusia*4.92)-161;
-                tdevalue = bmr;
-                tdee.putExtra(EXTRA_TDEE,tdevalue);
-                startActivity(tdee);
-            }
-            else if(aktif>=3){
-                bmr = (valuetinggi*6.25)+(valueberat*9.99)-(valueusia*4.92)-161;
-                tdevalue = bmr*1.55;
-                tdee.putExtra(EXTRA_TDEE,tdevalue);
-                startActivity(tdee);
-            }
-        }
-
     }
 }
