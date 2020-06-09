@@ -29,7 +29,7 @@ public class Activity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
-        getSupportActionBar().setTitle("Kalkulator IMT");
+        getSupportActionBar();
         //fetch data dari form input
         isiBB = (EditText)findViewById(R.id.edit_text_bb);
         isiTB = (EditText)findViewById(R.id.edit_text_tb);
